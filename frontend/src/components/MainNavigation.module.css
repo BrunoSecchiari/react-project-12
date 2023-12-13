@@ -1,0 +1,35 @@
+.header {
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.list button {
+  background-color: transparent;
+  border: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.list a,
+.list button {
+  text-decoration: none;
+  color: var(--color-primary-400);
+}
+
+.list a.active,
+.list a:hover,
+.list button:active,
+.list button:hover {
+  color: var(--color-primary-800);
+}
